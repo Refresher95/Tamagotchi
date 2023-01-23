@@ -1,0 +1,23 @@
+﻿<Window x:Class="Animal_Sims_Up_Tamagotchi.Tier3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Animal_Sims_Up_Tamagotchi"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Tier3" Height="450" Width="800">
+    <Grid>
+        <Label Content="Tier3" HorizontalAlignment="Left" Margin="395,52,0,0" VerticalAlignment="Top"/>
+        <Image Name="gehegeBild" HorizontalAlignment="Left" Height="262" Margin="192,83,0,0" VerticalAlignment="Top" Width="450" Source="Gehege.jpg"/>
+        <Image Name="tierBild" HorizontalAlignment="Left" Height="134" Margin="331,155,0,0" VerticalAlignment="Top" Width="154" Source="TigerW.jpg"/>
+        <ProgressBar Name="hp_Anzeige" HorizontalAlignment="Left" Height="10" Margin="657,115,0,0" VerticalAlignment="Top" Width="100" Value="100"/>
+        <ProgressBar Name="hunger_Anzeige" HorizontalAlignment="Left" Height="10" Margin="657,201,0,0" VerticalAlignment="Top" Width="100" Value="100"/>
+        <Label Content="HP:" HorizontalAlignment="Left" Margin="657,89,0,0" VerticalAlignment="Top"/>
+        <Label Content="Hunger:" HorizontalAlignment="Left" Margin="657,175,0,0" VerticalAlignment="Top"/>
+        <Button Name="fuetterBtn" Content="füttern" HorizontalAlignment="Left" Margin="241,379,0,0" VerticalAlignment="Top" Width="75" Click="fuetterBtn_Click"/>
+        <Button Name="kuschelnBtn" Content="Kuscheln" HorizontalAlignment="Left" Margin="344,379,0,0" VerticalAlignment="Top" Width="75" Click="kuschelnBtn_Click"/>
+        <Button Name="TierauswahlBtn" Content="Tierauswahl" HorizontalAlignment="Left" Margin="87,64,0,0" VerticalAlignment="Top" Width="75" Click="TierauswahlBtn_Click"/>
+
+    </Grid>
+</Window>

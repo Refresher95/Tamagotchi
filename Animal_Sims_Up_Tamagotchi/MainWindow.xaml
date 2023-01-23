@@ -1,0 +1,14 @@
+﻿<Window x:Class="Animal_Sims_Up_Tamagotchi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen"
+        Title="Start Menu" Height="350" Width="525">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <Button Content="New Game" Width="100" Margin="5" Click="NewGame_Click"/>
+            <Button Content="Load Game" Width="100" Margin="5" Click="LoadGame_Click"/>
+            <Button Content="Options" Width="100" Margin="5" Click="Options_Click"/>
+            <Button Content="Quit" Width="100" Margin="5" Click="Quit_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

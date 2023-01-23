@@ -8,7 +8,7 @@ namespace Animal_Sims_Up_Tamagotchi
 {
     class Delphin : Tierneeds
     {
-        internal Delphin()
+        public Delphin()
         {
             Type = "Delfin";
             Hp_wert = 100;

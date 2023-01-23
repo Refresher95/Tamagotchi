@@ -25,7 +25,7 @@ namespace Animal_Sims_Up_Tamagotchi
 
         DispatcherTimer timertier1 = new DispatcherTimer();
 
-        public Tier1()
+        internal Tier1()
         {
             InitializeComponent();
 
@@ -36,7 +36,7 @@ namespace Animal_Sims_Up_Tamagotchi
 
         }
 
-        public void t_ticker(object sender, EventArgs e)
+        internal void t_ticker(object sender, EventArgs e)
         {
             hunger_Anzeige.Value = tier.Hunger_wert;
             hp_Anzeige.Value = tier.Hp_wert;
@@ -85,7 +85,7 @@ namespace Animal_Sims_Up_Tamagotchi
             }
             //----------------------------------------------------------------------------------------------------------------------------
         }
-        public void fuetterBtn_Click(object sender, RoutedEventArgs e)
+        private void fuetterBtn_Click(object sender, RoutedEventArgs e)
         {
             if (hunger_Anzeige.Value <= 90) 
             {
@@ -96,7 +96,7 @@ namespace Animal_Sims_Up_Tamagotchi
             tier.fuettern_plus();
 
         }
-        public void kuschelnBtn_Click(object sender, RoutedEventArgs e)
+        private void kuschelnBtn_Click(object sender, RoutedEventArgs e)
         {
             tier.kuscheln_plus();
         }

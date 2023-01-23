@@ -8,9 +8,9 @@ namespace Animal_Sims_Up_Tamagotchi
 {
     internal static class GameManger
     {
-        internal static Tierneeds hund = new Hund();
-        internal static Tierneeds delphin = new Delphin();
-        internal static Tierneeds tiger = new Tiger();
+        public static Tierneeds hund = new Hund();
+        public static Tierneeds delphin = new Delphin();
+        public static Tierneeds tiger = new Tiger();
 
     }
 }

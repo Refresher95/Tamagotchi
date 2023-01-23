@@ -8,7 +8,7 @@ namespace Animal_Sims_Up_Tamagotchi
 {
     class Hund : Tierneeds
     {
-        public Hund()
+        internal Hund()
         {
             Type = "Hund";
             Hp_wert = 100;

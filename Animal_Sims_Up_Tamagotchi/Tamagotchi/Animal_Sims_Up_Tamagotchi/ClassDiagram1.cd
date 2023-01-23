@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Animal_Sims_Up_Tamagotchi.App">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animal_Sims_Up_Tamagotchi.Delphin">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delphin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animal_Sims_Up_Tamagotchi.GameManger">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIAAAAA=</HashCode>
+      <FileName>GameManger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animal_Sims_Up_Tamagotchi.Hund">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hund.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animal_Sims_Up_Tamagotchi.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAIgCAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Animal_Sims_Up_Tamagotchi.Tier1" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAABAAABAAAAAAAAMAAAAAAAAAAAEIA=</HashCode>
+      <FileName>Tier1.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Animal_Sims_Up_Tamagotchi.Tier2" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAABAAABAAAAAAAAFAAAAAAAAAAAEIA=</HashCode>
+      <FileName>Tier2.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Animal_Sims_Up_Tamagotchi.Tier3" BaseTypeListCollapsed="true">
+    <Position X="12" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAABAAABAAAAAAAAGAAAAAAAAAAAEIA=</HashCode>
+      <FileName>Tier3.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Animal_Sims_Up_Tamagotchi.Tierauswahl" BaseTypeListCollapsed="true">
+    <Position X="12" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAABAAA=</HashCode>
+      <FileName>Tierauswahl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Animal_Sims_Up_Tamagotchi.Tierneeds">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAoAAAAAAAAAAAAAAAAEAAIAEAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Tierneeds.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animal_Sims_Up_Tamagotchi.Tiger">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tiger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animal_Sims_Up_Tamagotchi.Properties.Resources">
+    <Position X="6.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animal_Sims_Up_Tamagotchi.Properties.Settings">
+    <Position X="8.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

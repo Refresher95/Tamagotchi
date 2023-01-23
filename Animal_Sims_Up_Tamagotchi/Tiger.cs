@@ -9,7 +9,7 @@ namespace Animal_Sims_Up_Tamagotchi
     class Tiger : Tierneeds
     {
 
-        public Tiger()
+        internal Tiger()
         {
             Type = "Tiger";
             Hp_wert = 100;

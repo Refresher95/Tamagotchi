@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Animal_Sims_Up_Tamagotchi
 {
-    class Delphin : Tierneeds
+    class Hund : Tierneeds
     {
-        internal Delphin()
+        public Hund()
         {
-            Type = "Delfin";
+            Type = "Hund";
             Hp_wert = 100;
             Hunger_wert = 100;
         }
 
         public override void fuettern_minus()
         {
-            Hunger_wert -= 2;
+            Hunger_wert -= 1;
         }
 
         public override void fuettern_plus()
@@ -38,4 +38,3 @@ namespace Animal_Sims_Up_Tamagotchi
 
     }
 }
-
